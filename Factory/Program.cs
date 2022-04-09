@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Factory");
+﻿using Factory.Classes;
+
+var carFactory = new CarFactory();
+
+var honda = carFactory.GetHonda();
+var toyota = carFactory.GetToyota();
+
+honda.Start();
+honda.Stop();
+
+toyota.Start();
+toyota.Stop();
