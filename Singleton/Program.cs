@@ -1,5 +1,8 @@
 ﻿using Singleton;
 
+
+// This is not a thread safe implementation
+
 var instance = Instance.GetInstance();
 Console.WriteLine(instance);
 Console.WriteLine(instance.GetHashCode());
