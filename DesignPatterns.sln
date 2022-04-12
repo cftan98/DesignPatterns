@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Abstract
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{B99BEBC4-D619-4E70-9C07-90BBDEE166E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{A30EA555-A62E-4841-B6A6-6046737A6420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{A30EA555-A62E-4841-B6A6-6046737A6420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{1BF21878-56B7-4FFE-8A17-CD7212D4E506}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A30EA555-A62E-4841-B6A6-6046737A6420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A30EA555-A62E-4841-B6A6-6046737A6420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A30EA555-A62E-4841-B6A6-6046737A6420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF21878-56B7-4FFE-8A17-CD7212D4E506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF21878-56B7-4FFE-8A17-CD7212D4E506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF21878-56B7-4FFE-8A17-CD7212D4E506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF21878-56B7-4FFE-8A17-CD7212D4E506}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
