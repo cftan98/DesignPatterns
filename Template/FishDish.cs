@@ -2,7 +2,7 @@
 {
     internal class FishDish : CookingTemplate
     {
-        protected internal override void AddIngrediant()
+        protected override void AddIngredient()
         {
             Console.WriteLine("Added Fish");
         }

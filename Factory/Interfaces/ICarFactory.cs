@@ -1,6 +1,4 @@
-﻿using Factory.Interfaces;
-
-namespace Factory
+﻿namespace Factory.Interfaces
 {
     public interface ICarFactory
     {

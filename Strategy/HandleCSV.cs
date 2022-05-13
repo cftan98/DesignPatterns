@@ -1,6 +1,6 @@
 ﻿namespace Strategy
 {
-    internal class HandleCSV : IFileHandler
+    internal class HandleCsv : IFileHandler
     {
         void IFileHandler.HandleFile()
         {

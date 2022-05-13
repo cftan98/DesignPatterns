@@ -2,7 +2,7 @@
 {
     internal class MyFacebookChannel : ISubject<User>
     {
-        private IList<User> _users = new List<User>();
+        private readonly IList<User> _users = new List<User>();
 
         public void Attach(User obj)
         {

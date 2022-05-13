@@ -6,7 +6,7 @@
         {
             AddedOil();
             AddedSalt();
-            AddIngrediant();
+            AddIngredient();
             AdjustFire();
         }
 
@@ -20,7 +20,7 @@
             Console.WriteLine("Added Salt");
         }
 
-        protected internal abstract void AddIngrediant();
+        protected abstract void AddIngredient();
 
         private void AdjustFire()
         {

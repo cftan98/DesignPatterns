@@ -2,20 +2,21 @@
 {
     public class Instance
     {
-        private static Instance instance = new();
+        private static Instance _instance = new();
+
         private Instance()
         {
         }
 
         public static Instance GetInstance()
         {
-            if (instance != null)
+            if (_instance != null)
             {
-                return instance;
+                return _instance;
             }
 
-            instance = new Instance();
-            return instance;
+            _instance = new Instance();
+            return _instance;
         }
     }
 }

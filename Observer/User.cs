@@ -4,15 +4,14 @@
     {
         internal string Name { get; set; }
 
-        internal User(string Name)
+        internal User(string name)
         {
-            this.Name = Name;
+            this.Name = name;
         }
 
         internal void Update()
         {
             Console.WriteLine($"{Name} starts following my facebook account...");
         }
-
     }
 }
