@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Command;
 
-Console.WriteLine( "Hello, World!" );
+var light = new Light( );
+var invoker = new Invoker( new LightOnCommand( light ), new LightOffCommand( light ) );
+invoker.TurnOnTheLight( );
+invoker.TurnOffTheLight( );
